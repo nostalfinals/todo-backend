@@ -17,13 +17,13 @@ repositories {
 }
 
 dependencies {
-    compileOnly(libs.mongodb.kotlin)
-    compileOnly(libs.mongodb.kotlin.bson)
-    compileOnly(libs.caffeine)
-    compileOnly(libs.bundles.protobuf)
-    compileOnly(libs.bundles.grpc)
-    compileOnly(libs.bundles.nightconfig)
-    compileOnly(libs.bundles.kotlin)
+    implementation(libs.mongodb.kotlin)
+    implementation(libs.mongodb.kotlin.bson)
+    implementation(libs.caffeine)
+    implementation(libs.bundles.protobuf)
+    implementation(libs.bundles.grpc)
+    implementation(libs.bundles.nightconfig)
+    implementation(libs.bundles.kotlin)
 }
 
 kotlin {
